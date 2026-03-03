@@ -1,0 +1,24 @@
+<div class="holi-container">
+  <h1>🌸 Happy Holi 2026 🌸</h1>
+
+  <h3 class="from-text">Celebration from <span>Dhananjay Kumar</span></h3>
+
+  <!-- Image -->
+  <img src="./holi1.jpg" alt="Holi Celebration" class="holi-image" />
+
+  <!-- Dynamic Quote -->
+  <div class="quotes">
+    <p>"{{ currentQuote }}"</p>
+    <button (click)="changeQuote()">New Quote 🎨</button>
+  </div>
+
+  <!-- Music -->
+  <audio controls autoplay loop>
+    <source src="assets/holi-song.mp3" type="audio/mp3" />
+  </audio>
+
+  <!-- Share Button -->
+  <div class="share-section">
+    <button (click)="sharePage()">Share Celebration 🎊</button>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+.holi-container {
+  text-align: center;
+  background: linear-gradient(135deg, #ff512f, #dd2476, #ffcc00);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* From Text */
+.from-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.from-text span {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Image */
+.holi-image {
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 20px;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* Quotes */
+.quotes {
+  font-size: 16px;
+  font-style: italic;
+  padding: 0 15px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 25px;
+  background: white;
+  color: #dd2476;
+  font-weight: bold;
+  cursor: pointer;
+  width: 80%;
+  max-width: 250px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: yellow;
+  transform: scale(1.05);
+}
+
+/* Audio */
+audio {
+  width: 90%;
+  max-width: 300px;
+  margin-top: 15px;
+}
+
+/* 📱 Extra Small Devices */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .from-text {
+    font-size: 16px;
+  }
+
+  .quotes {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
